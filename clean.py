@@ -231,8 +231,8 @@ def clean_languages(db_uri: str, db_name: str, collection_name: str, batch_size:
 
 if __name__ == "__main__":
     # Connection details
-    DB_URI = "mongodb+srv://dev-student:25HHL5dwb6MQlFbK@student.qwtbgls.mongodb.net/?retryWrites=true&w=majority"
-    DB_NAME = "DEV_STUDENT"
+    DB_URI = "CONNECTION_STRING"
+    DB_NAME = "DEV_STUDENT" #PROD_STUDENT
     COLLECTION_NAME = "students"
     BATCH_SIZE = 100  # Adjust based on your needs
     
